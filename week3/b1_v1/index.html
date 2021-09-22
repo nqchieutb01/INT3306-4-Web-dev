@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <script src="https://kit.fontawesome.com/d18f709134.js" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <div class="container" id="container">
+         <div class="form-container sign-up-container">
+            <form action="#">
+               <h1>Chào mừng các bạn</h1>
+               <div class="social-container">
+                  <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                  <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+               </div>
+               <input type="text" placeholder="Name" />
+               <input type="email" placeholder="Email" />
+               <input type="password" placeholder="Mật khẩu" />
+               <button>Đăng ký</button>
+            </form>
+         </div>
+         <div class="form-container sign-in-container">
+            <form action="#">
+               <h1>Chào mừng các bạn</h1>
+               <div class="social-container">
+                  <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                  <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+               </div>
+               <input type="email" placeholder="Email" required />
+               <input type="password" placeholder="Mật khẩu" required/>
+               <a href="#">Quên mật khẩu?</a>
+               <div class="pass">
+                  <input type="checkbox" style="width:20px;height: 20px;"> Lưu tài khoản
+               </div>
+               <p id ="wa"></p>
+               <button onclick="msg()">Đăng nhập</button>
+            </form>
+         </div>
+         <div class="overlay-container">
+            <div class="overlay">
+               <div class="overlay-panel overlay-left">
+                  <h1>Welcome Back!</h1>
+                  <p>Để giữ kết nối với chúng tôi, vui lòng đăng nhập bằng thông tin cá nhân của bạn</p>
+                  <button class="ghost" id="signIn">Đăng nhập</button>
+               </div>
+               <div class="overlay-panel overlay-right">
+                  <h1>Hello!!!</h1>
+                  <p>Nhập thông tin cá nhân của bạn và bắt đầu hành trình với chúng tôi</p>
+                  <button class="ghost" id="signUp">Đăng ký</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+   <script src="js.js"></script>
+</html>
+1

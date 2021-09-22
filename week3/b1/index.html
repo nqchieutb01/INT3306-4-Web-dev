@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="utf-8">
+    <title>Đăng nhập tài khoản</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="center">
+      <form method="post" id="login">
+        <h1>Đăng nhập tài khoản</h1>
+          <div class="form__message form__message--error"></div>
+          <form method="post">
+          <div class="txt_field">
+            <input type="text" required>
+            <span></span>
+            <label>Tên đăng nhập</label>
+          </div>
+          <div class="txt_field">
+            <input type="password" required>
+            <span></span>
+            <label>Mật khẩu</label>
+          </div>
+          <div class="pass">
+            <input type="checkbox"> Lưu tài khoản
+          </div>
+          <div class="pass">Quên mật khẩu?</div>
+              <input type="submit" value="Đăng nhập">
+
+          <div class="signup_link" id="linkCreateAccount">
+            Chưa có tài khoản? <a href="#">Đăng ký</a>
+          </div>
+      </form>
+      <form class="form__hidden" id="createAccount">
+          <h1>Đăng ký tài khoản</h1>
+          <div class="form__message form__message--error"></div>
+          <div class="txt_field">
+            <input type="text" required>
+            <span></span>
+            <label>Tên đăng nhập</label>
+          </div>
+          <div class="txt_field">
+            <input type="text" required>
+            <span></span>
+            <label>Địa chỉ email</label>
+          </div>
+          <div class="txt_field">
+            <input type="password" required>
+            <span></span>
+            <label>Mật khẩu</label>
+          </div>
+          <div class="txt_field">
+            <input type="password" required>
+            <span></span>
+            <label>Xác nhận mật khẩu</label>
+          </div>
+          <input type="submit" value="Đăng ký">
+          <div class="signup_link" id="linkLogin">
+            Đã có tài khoản? <a href="#">Đăng nhập</a>
+          </div>
+      </form>
+    </div>
+    <script src="./js.js"></script>
+  </body>
+</html>
